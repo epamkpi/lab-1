@@ -1,6 +1,11 @@
-ass
-
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# Intellij IDEA project files
+*.iml
+.idea/
+
+# Maven build output
+target/
