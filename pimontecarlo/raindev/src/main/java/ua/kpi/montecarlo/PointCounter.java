@@ -8,7 +8,7 @@ import java.util.concurrent.Callable;
  * of the circle encircled into it.
  */
 public class PointCounter implements Callable<Long> {
-    private static final Random random = new Random();
+    private final Random random = new Random();
     private final long totalPoints;
 
     /**

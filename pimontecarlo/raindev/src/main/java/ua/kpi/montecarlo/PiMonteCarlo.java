@@ -12,9 +12,9 @@ import java.util.concurrent.Future;
  */
 public class PiMonteCarlo {
     // Default number of threads used in computations if no thread number specified.
-    private static final int DEFAULT_THREAD_NUMBER = 4;
+    private static final int DEFAULT_THREAD_NUMBER = 8;
     // Total number of points used in Pi computations
-    private static final int POINT_NUMBER = 1_000_000;//_000;
+    private static final int POINT_NUMBER = 1_000_000_000;
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         int threadNumber = DEFAULT_THREAD_NUMBER;
